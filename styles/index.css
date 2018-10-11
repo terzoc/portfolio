@@ -24,6 +24,11 @@
 
 .active {
     background-color: #4CAF50;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: white;
 }
 body{
     font-size: 1em;
