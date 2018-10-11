@@ -1,9 +1,14 @@
+.navbar{
+  left: 0%;
+  width: 100%:
+}
 #nav {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #333;
+
 }
 
 .page {
@@ -23,7 +28,7 @@
 }
 
 .active {
-    background-color: #4CAF50;
+    background-color: #0080FF;
     display: block;
     text-align: center;
     padding: 14px 16px;
@@ -40,11 +45,11 @@ body{
 h1{
   font-size: 1.8em;
   font-weight: bold;
-  color: #0000ff; /*blue*/
+  color: #0080FF; /*blue*/
 
 }
 h3{
 font-size: 1.5em;
 font-weight: bold;
-color: green;
+color: #0080FF;
 }
