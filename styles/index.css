@@ -1,6 +1,6 @@
 .navbar{
-  left: 0%;
-  width: 100%:
+  left: 0px;;
+  width: 100%;
 }
 #nav {
     list-style-type: none;
@@ -43,6 +43,7 @@ body{
     color: #000000; /*Black*/
     text-align: left;
     background: whitesmoke;
+    margin: 0;
 }
 h1{
   font-size: 1.8em;
