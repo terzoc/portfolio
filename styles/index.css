@@ -21,6 +21,7 @@
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    color: whitesmoke;
 }
 
 .link:hover:not(.active) {
@@ -33,7 +34,7 @@
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    color: white;
+    color: whitesmoke;
 }
 body{
     font-size: 1em;
@@ -41,6 +42,7 @@ body{
     font-family: Arial, sans-serif;
     color: #000000; /*Black*/
     text-align: left;
+    background: whitesmoke;
 }
 h1{
   font-size: 1.8em;
