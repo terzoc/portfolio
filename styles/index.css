@@ -1,6 +1,8 @@
 .navbar{
   left: 0px;;
   width: 100%;
+  position: sticky;
+  top: 0;
 }
 #nav {
     list-style-type: none;
@@ -8,7 +10,7 @@
     padding: 0;
     overflow: hidden;
     background-color: #333;
-
+    position: -webkit-sticky; /* Safari */
 }
 
 .page {
@@ -76,4 +78,11 @@ table {
 
 th {
     height: 50px;
+}
+
+.info{
+  width:40%;
+  font-size: 20px;
+  border: 3px solid #111;
+  text-align: left;
 }
