@@ -24,10 +24,17 @@
     padding: 14px 16px;
     text-decoration: none;
     color: whitesmoke;
+     border-bottom: 4px solid transparent;
 }
 
 .link:hover:not(.active) {
     background-color: #111;
+    border-bottom: 4px solid #0080FF;
+  -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein .4s; /* Firefox < 16 */
+        -ms-animation: fadein .4s; /* Internet Explorer */
+         -o-animation: fadein .4s; /* Opera < 12.1 */
+            animation: fadein .4s;
 }
 
 .active {
@@ -37,6 +44,7 @@
     padding: 14px 16px;
     text-decoration: none;
     color: whitesmoke;
+    border-bottom: 4px solid transparent;
 }
 body{
     font-size: 1em;
