@@ -95,3 +95,26 @@ th {
   border: 3px solid #111;
   text-align: left;
 }
+
+#rainbowDisplay{
+  background-color: black;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+#rainbowText {
+  text-align: center;
+  font-size: 36px;
+  animation: rainbow 5s infinite;
+}
+
+@keyframes rainbow{
+	20%{color: red;}
+	40%{color: yellow;}
+	60%{color: green;}
+	80%{color: blue;}
+	100%{color: orange;}
+}
+
+input{
+  margin-left: 10px;
+}
