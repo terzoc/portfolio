@@ -150,3 +150,9 @@ a{
 .buttons{
   margin-left: 10px;
 }
+
+#clock{
+  text-align: center;
+  font-size: 36px;
+  font-family: roboto;
+}
