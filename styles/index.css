@@ -156,3 +156,12 @@ a{
   font-size: 36px;
   font-family: roboto;
 }
+
+#aitLink{
+  margin-left: 0px;
+  color: #000000;
+}
+
+#aitLink:hover{
+  color: blue;
+}
